@@ -13,8 +13,10 @@ IS
 -- |Version    Date        Author               Remarks
 -- |==========================================================
 -- |DRAFT 1A                                    Initial Draft
+-- |1.0                                         added proc
 -- +==========================================================
     PROCEDURE main;
+	PROCEDURE sub_main;
 END;
 
 CREATE PACKAGE BODY xx_pack1
@@ -32,10 +34,18 @@ IS
 -- |Version    Date        Author               Remarks
 -- |==========================================================
 -- |DRAFT 1A                                    Initial Draft
+-- |1.0                                         added proc
 -- +==========================================================
     PROCEDURE main
 	IS 
 	BEGIN 
 	   NULL;
 	END;
+	
+    PROCEDURE sub_main
+	IS 
+	BEGIN 
+	   NULL;
+	END;
+	
 END;
