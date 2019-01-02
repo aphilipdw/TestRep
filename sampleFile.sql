@@ -1,3 +1,3 @@
 create table testTab 
-    as (select 'PROD1' 
+    as (select 'PROD2' 
           from dual);
