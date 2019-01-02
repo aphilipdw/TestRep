@@ -1,0 +1,41 @@
+CREATE PACKAGE xx_pack1
+IS 
+-- +==========================================================
+-- |                      ANU TEST REP
+-- +==========================================================
+-- |
+-- |Name             : xx_pack1.pkg 
+-- |Description      : Package Creation Script
+-- |
+-- |
+-- |Change Record:
+-- |===============
+-- |Version    Date        Author               Remarks
+-- |==========================================================
+-- |DRAFT 1A                                    Initial Draft
+-- +==========================================================
+    PROCEDURE main;
+END;
+
+CREATE PACKAGE BODY xx_pack1
+IS
+-- +==========================================================
+-- |                      ANU TEST REP
+-- +==========================================================
+-- |
+-- |Name             : xx_pack1.pkg 
+-- |Description      : Package Creation Script
+-- |
+-- |
+-- |Change Record:
+-- |===============
+-- |Version    Date        Author               Remarks
+-- |==========================================================
+-- |DRAFT 1A                                    Initial Draft
+-- +==========================================================
+    PROCEDURE main
+	IS 
+	BEGIN 
+	   NULL;
+	END;
+END;
