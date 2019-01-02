@@ -35,6 +35,7 @@ IS
 -- |==========================================================
 -- |DRAFT 1A                                    Initial Draft
 -- |1.0                                         added proc
+-- |1.1                                         added param
 -- +==========================================================
     PROCEDURE main
 	IS 
@@ -42,7 +43,7 @@ IS
 	   NULL;
 	END;
 	
-    PROCEDURE sub_main
+    PROCEDURE sub_main (p_param VARCHAR2(1))
 	IS 
 	BEGIN 
 	   NULL;
